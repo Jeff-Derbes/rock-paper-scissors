@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="game-title">
+      <h1>Rock, Paper, Scissors!</h1>
+    </header>
+
+    <button id="game-start">Play Game!</button>
+    <div class="container hidden">
+      <div class="choice">
+        <h3>Player</h3>
+        <p id="player-score">Score:</p>
+        <div class="container">
+          <div class="choice-card rock" id="rock">
+            <p>Rock</p>
+            <img
+              src="https://cdn-icons.flaticon.com/png/512/1867/premium/1867550.png?token=exp=1655208166~hmac=b44e1d782527e91e377c1b9b74b476df"
+              alt=""
+            />
+          </div>
+          <div class="choice-card paper" id="paper">
+            <p>Paper</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4334/4334402.png"
+              alt=""
+            />
+          </div>
+          <div class="choice-card scissors" id="scissors">
+            <p>Scissors</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4229/4229771.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="choice">
+        <h3>Computer</h3>
+        <p id="computer-score">Score:</p>
+        <div class="container">
+          <div class="choice-card rock">
+            <p>Rock</p>
+            <img
+              src="https://cdn-icons.flaticon.com/png/512/1867/premium/1867550.png?token=exp=1655208166~hmac=b44e1d782527e91e377c1b9b74b476df"
+              alt=""
+            />
+          </div>
+          <div class="choice-card paper">
+            <p>Paper</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4334/4334402.png"
+              alt=""
+            />
+          </div>
+          <div class="choice-card scissors">
+            <p>Scissors</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4229/4229771.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="result"></h2>
+
+    <script src="script.js"></script>
+  </body>
+</html>

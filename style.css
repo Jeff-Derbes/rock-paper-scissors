@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+}
+
+body {
+  background-color: #242333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100px;
+}
+
+#game-title {
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px #efefef solid;
+  border-radius: 4px;
+  margin: 15px;
+}
+
+.choice-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d4d9;
+  color: #242333;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.choice-card:hover {
+  cursor: pointer;
+  background-color: rgba(232, 197, 0, 0.901);
+  transform: translateY(-4px);
+}
+
+#game-start {
+  padding: 15px;
+  background-color: rgba(232, 197, 0, 0.901);
+  border-radius: 5px;
+}
+
+#game-start:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.active {
+  background-color: rgba(232, 197, 0, 0.901);
+}
+
+.hidden {
+  display: none;
+}
